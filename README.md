@@ -18,8 +18,8 @@ An AI assistant that answers from the school handbook only. If the answer is not
 n8n, Google Drive, Google Gemini, Simple Vector Store
 
 ## What I learned
-I learned how to store data in a vector data base and how to splits the text into the chunks and after it I adjoined the chat part how an answered is got how embed the AI model .By system message I restricted it to the given data ,it doesn't allow it to generate it's own answers.Then I explored the context engineering.
-
+“The assistant first searches the stored handbook pieces, then writes the answer from what it found.”
+What the rule does: “I told it to answer only from the handbook, so it says ‘I don’t know’ instead of guessing.”
 ## Limits
 - Vector store is temporary memory, so it resets if n8n restarts
 - Works with text PDFs only
